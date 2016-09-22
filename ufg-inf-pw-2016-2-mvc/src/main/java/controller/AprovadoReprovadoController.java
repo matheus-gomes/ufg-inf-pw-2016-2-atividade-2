@@ -46,7 +46,7 @@ public class AprovadoReprovadoController extends HttpServlet {
 		request.setAttribute("classeAlerta", alerta);
 
 		
-		String nextJsp = "/resultado.jsp";
+		String nextJsp = "/index.jsp";
 		RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(nextJsp);
 		dispatcher.forward(request, response);
 ;		
